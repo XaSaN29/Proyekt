@@ -1,159 +1,308 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* Navbar img */
-
-.img_navbar{
-display: flex;
-padding-top: 20px;
-padding-left: 10px;
-width: 140.996px;
-height: 40.14px;
-}
 /* Navbar */
 
-.text_ul_navbar{
-color: #000;
-display: flex;
-justify-content: center;
-}
-.text_li_navbar{
- font-family: Montserrat;
- margin-right: 27px;
-font-size: 19px;
-font-style: normal;
-font-weight: 700;
-line-height: 34.2px; /* 180% */
-list-style: none;
-}
-/* Navbar btn */
-.navbar_btn_div{
-    display: flex;
-    justify-content: right;
-    
-}
-.navbar_btn{
-    display: flex;
-    padding: 17.15px 47.035px 17.15px 47.245px;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #FF4D00 0%, #FF9365 100%);
-    border-bottom: #FF4D00;
-}
-/* navbar p */
-.swipor_div_p{
-    display: flex;
-    gap: 10px;
-}
-.swipor_p_van{
-    margin-top: 30px;
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* navbar img */
-.swipor_img_p_van{
-    width: 22px;
-    height: 25px;
-    margin-top: 30px;
+ul {
+  list-style: none;
 }
-.swipor_img_p_tu{
-    width: 29px;
-    height: 25px;
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+  gap: 27px;
+}
+
+.list_item {
+  color: #000;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.darkmode {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar_btn {
+  width: 240px;
+  height: 50px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-size: 19px;
+  color: #fff;
+  background: linear-gradient(90deg, #ff4d00 0%, #ff9365 100%);
+}
+.darkmode i {
+  font-size: 24px;
+  /* width: 24px;
+    height: 24px; */
 }
 
 /* Swipor */
 
+/* swipor p */
+.swipor_div_p {
+  display: flex;
+  gap: 10px;
+}
+
+.swipor_p_van {
+  margin-top: 30px;
+}
+
+/* svipor img */
+.swipor_img_p_van {
+  width: 22px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.swipor_img_p_tu {
+  width: 29px;
+  height: 25px;
+}
 /* h1 */
-.swipor_div_h{
-    max-width: 715px;
+.swipor_div_h {
+  max-width: 715px;
 }
-.h_swipor{
-color: #000;
-font-family: Montserrat;
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: 76.8px; /* 120% */
+
+.h_swipor {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76.8px;
+  /* 120% */
 }
+
 /* p */
-.swipor_p{
-color: #262626;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
+.swipor_p {
+  color: #262626;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
 }
+
 /* btn */
 
-.swipor_btn{
- display: flex;
- margin-top: 25px;
- padding: 14.6px 39.8px 14.6px 40px;
- justify-content: center;
- align-items: flex-start;
- border-radius: 40px;
-background: #E84E10;
+.swipor_btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.8px;
+  text-transform: capitalize;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #ff4d00 0%, #ff9365 100%);
+  padding: 18px 48px;
+  border: none;
 }
 
 /* News */
 
 /* title p */
-.news_p{
-max-width: 1400px;
-max-height: 43.2px;
+.news_p {
+  max-width: 1400px;
+  max-height: 43.2px;
+  color: #e84e10;
+  text-align: center;
+  font-family: Kanit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+  /* 180% */
+}
+
+/* title h */
+.news_h {
+  max-width: 1400px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  /* 120% */
+}
+
+/* card */
+.card_news {
+  display: flex;
+}
+
+.news_card_van {
+  display: flex;
+  min-height: 648.062px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.news_card_tu {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_card_fre {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_card_fo {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* card p */
+.card_p {
+  display: flex;
+  padding: 0px 132.17px 0px 3.59px;
+  align-items: center;
+  gap: 8.24px;
+  align-self: stretch;
+}
+
+/* caed h6 */
+.card-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+}
+
+.news_card_van {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 600;
+  line-height: 31.2px;
+  /* 120% */
+}
+
+/* Online dars */
+
+
+.online_dars_hvan {
+padding-top: 43px;
 color: #E84E10;
 text-align: center;
-font-family: Kanit;
-font-size: 24px;
+font-family: Montserrat;
+font-size: 30px;
 font-style: normal;
-font-weight: 400;
-line-height: 43.2px; /* 180% */
+font-weight: 700;
+line-height: 36px; 
 }
-/* title h */
-.news_h{
- max-width: 1400px;
- color: #000;
+
+
+
+.online_dars{
+  background-color: #262626;
+  color:#fff ;
+  height: 1000px;
+}
+
+.online_dars_card{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.online_dars_img{
+ width: 446.66px;
+height: 245.66px;
+max-width: 446.66px;
+border-radius: 20px;
+}
+
+.online_dars_p{
+  padding-top: 43px;
+}
+.online_dars_p_ikki{
+  padding-top: 43px;
+}
+.online_dars_p_uch{
+  padding-top: 43px;
+}
+
+.online_dars_hikki{
+  padding-top: 35px;
+  color: #E84E10;
 text-align: center;
 font-family: Montserrat;
-font-size: 60px;
+font-size: 30px;
 font-style: normal;
-font-weight: 600;
-line-height: 72px; /* 120% */
+font-weight: 700;
+line-height: 36px; 
 }
-/* card */
-.news_card{
-display: flex;
-min-height: 648.062px;
-padding-bottom: 0px;
-flex-direction: column;
-align-items: flex-start;
-align-self: stretch;
+
+/* Online dars ikkinchi qisim */
+.online_dars_card_ikkinchi{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
 }
-/* card p */
-.card_p{
- display: flex;
-padding: 0px 132.17px 0px 3.59px;
-align-items: center;
-gap: 8.24px;
-align-self: stretch;
+
+.online_dars_card_ikkinchi_p{
+  padding-top: 44px;
 }
-/* caed h6 */
-.card-text{
-color: #000;
-font-family: Montserrat;
-font-size: 26px;
-font-style: normal;}
-.news_card_van{
-    display: flex;
-width: 329px;
-min-height: 1px;
-padding: 15px 15px 65.01px 15px;
-flex-direction: column;
-align-items: flex-start;
-font-weight: 600;
-line-height: 31.2px; /* 120% */
+
+.online_dars_card_ikkinchi_p_ikki{
+  padding-top: 44px;
+}
+.online_dars_card_ikkinchi_p_uch{
+  padding-top: 44px;
 }
