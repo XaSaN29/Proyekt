@@ -306,3 +306,108 @@ line-height: 36px;
 .online_dars_card_ikkinchi_p_uch{
   padding-top: 44px;
 }
+
+/* Registon haqida */
+
+.Registon_haqida{
+width: 1500px;
+height: 550px;
+margin-top: 60px;
+border-radius: 30px;
+background: #E8FAFF;
+}
+
+/* .registon_haqida_img_girl_bir{
+width: 250px;
+height: 500px;
+} */
+
+.registon_haqida_minimalumot{
+  display: flex;
+  gap: 212px;
+ 
+}
+.registon_haqida_title{
+  padding-left: 533px;
+  padding-top: 90px;
+}
+
+.registon_haqida_text_h{
+max-width: 803.19px;
+color: #000;
+font-family: Montserrat;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+}
+
+.registon_haqida_malumot_bir{
+  padding-left: 533px;
+  padding-top: 40px;
+}
+.registon_haqida_malumot_bir_h{
+  max-height: 104.5px;
+color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px; 
+}
+
+.registon_haqida_malumot_bir_p{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.registon_haqida_malumot_ikki{
+padding-top: 40px; 
+}
+
+.registon_haqida_malumot_bir_h_ikki{
+  max-height: 104.5px;
+  color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px; 
+}
+.registon_haqida_malumot_bir_p_ikki{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.registon_haqida_malumot_uch{
+  padding-top: 40px;
+}
+
+.registon_haqida_malumot_bir_h_uch{
+  max-height: 104.5px;
+  color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px; /* 190% */
+}
+.registon_haqida_malumot_bir_p_uch{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
