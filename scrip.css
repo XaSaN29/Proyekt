@@ -518,6 +518,7 @@ background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding-top: 40px;
 }
 
 .registon_avzaligimiz-cardikki_img{
@@ -532,7 +533,7 @@ background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 
 }
 
 .registon_avzaligimiz-cardikki_ikki{
-    width: 350px;
+width: 350px;
 height: 260px;
 border-radius: 30px;
 background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 0.19) 100%);
@@ -568,3 +569,289 @@ background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 
     padding-left: 57px;
   padding-top: 44px;
 }
+
+/* Registon avzaliglari card uch */
+
+.registon_avzaligimiz_carduch{
+    display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.registon_avzaligimiz-carduch_bir{
+  width: 350px;
+height: 260px;
+border-radius: 30px;
+background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 0.19) 100%);
+
+}
+
+.registon_avzaligimiz-carduch_img{
+   padding-left: 130px;
+    padding-top: 70px;
+}
+
+.registon_avzaligimiz-carduch_p{
+    color: #000;
+    padding-left: 57px;
+  padding-top: 44px;
+}
+
+.registon_avzaligimiz-carduch_ikki{
+  width: 350px;
+height: 260px;
+border-radius: 30px;
+background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 0.19) 100%);
+
+}
+
+.registon_avzaligimiz-carduch_img_ikki{
+    padding-left: 130px;
+    padding-top: 70px;
+}
+
+.registon_avzaligimiz-carduch_p_ikki{
+    color: #000;
+    padding-left: 57px;
+  padding-top: 44px;
+}
+
+.registon_avzaligimiz-carduch_uch{
+    width: 350px;
+height: 260px;
+border-radius: 30px;
+background: linear-gradient(180deg, rgba(255, 77, 0, 0.07) 0%, rgba(255, 77, 0, 0.19) 100%);
+
+}
+
+.registon_avzaligimiz-carduch_img_uch{
+    padding-left: 130px;
+    padding-top: 70px;
+}
+
+.registon_avzaligimiz-carduch_p_uch{
+    color: #000;
+    padding-left: 57px;
+  padding-top: 44px;
+}
+
+/* Dars laga yozilish */
+
+.Darsla_narxi{
+  padding-top: 140px;
+}
+
+.Darsla_narxi_div{
+  background: #DDF5DB;
+  width: 1515px;
+  height: 1115px;
+}
+
+/* Dars laga title */
+.darsla_narxi_title{
+  
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+  color: #E84E10;
+
+}
+
+
+.darsla_narxi_title_ikki{
+  display: flex;
+  justify-content: center;
+}
+/* darslar narxi card */
+.darslar_narxi_card{
+  display: flex;
+  padding-top: 51px;
+  gap: 30px ;
+}
+.darslar_narxi_card_bir{
+  width: 300px;
+  height: 490px;
+border-radius: 10px;
+  border-top: 10px solid #E84E10;
+background: #FFF;
+}
+
+.darslar_narxi_card_tex_htor{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.darslar_narxi_card_tex_p_div{
+ color: #666;
+  padding-left: 50px;
+  padding-top: 77px;
+  gap: 28px;
+}
+
+.darslar_narxi_card_tex_btn_div{
+  padding-left: 80px;
+  padding-top: 54px;
+}
+
+.darslar_narxi_card_tex_btn{
+  width:  144px;
+  height:  50px;
+  border-radius: 50px;
+background: #E84E10;
+color: #fff;
+}
+
+/* darslar narxi card ikki */
+
+.darslar_narxi_card_ikki{
+  width: 300px;
+  height: 490px;
+border-radius: 10px;
+  border-top: 10px solid #E84E10;
+background: #FFF;
+}
+.darslar_narxi_card_tex_htor_ikki{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.darslar_narxi_card_tex_p_div_ikki{
+   color: #666;
+  padding-left: 50px;
+  padding-top: 77px;
+  gap: 28px;
+}
+
+.darslar_narxi_card_tex_btn_div_ikki{
+    padding-left: 80px;
+  padding-top: 54px;
+}
+
+.darslar_narxi_card_tex_btn_ikki{
+    width:  144px;
+  height:  50px;
+  border-radius: 50px;
+background: #E84E10;
+color: #fff;
+}
+
+/* darslar narxi card uch */
+
+.darslar_narxi_card_uch{
+   width: 300px;
+  height: 490px;
+border-radius: 10px;
+  border-top: 10px solid #E84E10;
+background: #FFF;
+}
+
+.darslar_narxi_card_tex_htor_uch{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.darslar_narxi_card_tex_p_div_uch{
+     color: #666;
+  padding-left: 50px;
+  padding-top: 77px;
+  gap: 28px;
+}
+
+.darslar_narxi_card_tex_btn_div_uch{
+   padding-left: 80px;
+  padding-top: 54px;
+}
+
+.darslar_narxi_card_tex_btn_uch{
+      width:  144px;
+  height:  50px;
+  border-radius: 50px;
+background: #E84E10;
+color: #fff;
+}
+
+/* darslar narxi card to'r */
+
+.darslar_narxi_card_tor{
+    width: 300px;
+  height: 490px;
+border-radius: 10px;
+  border-top: 10px solid #E84E10;
+background: #FFF;
+}
+
+.darslar_narxi_card_tex_htor_tor{
+   padding-left: 50px;
+    padding-top: 50px
+}
+
+.darslar_narxi_card_tex_p_div_tor{
+       color: #666;
+  padding-left: 50px;
+  padding-top: 77px;
+  gap: 28px;
+}
+
+.darslar_narxi_card_tex_btn_div_tor{
+     padding-left: 80px;
+  padding-top: 54px;
+}
+
+.darslar_narxi_card_tex_btn_tor{
+        width:  144px;
+  height:  50px;
+  border-radius: 50px;
+background: #E84E10;
+color: #fff;
+}
+
+
+/*  Odam rang joy */
+
+.Odam_rang{
+padding-top: 120px;
+}
+.Odam_rang_joy{
+display: flex;
+padding: 100px 20px 100px 0px;
+flex-direction: column;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+background: #F3E4D1;
+}
+
+/* Tugadi */
+
+.tugadi{
+  padding-top: 150px;
+}
+.tugadi_div{
+  display: flex;
+padding: 80px 50px;
+flex-direction: column;
+align-items: center;
+flex: 1 0 0;
+  border-radius: 30px;
+background: #93E9C1;
+}
+
+.tugadi_p{
+  color: #E84E10;
+font-family: Kanit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.2px; 
+}
+
+.tugadi_h{
+  color: #000;
+font-family: Montserrat;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px; 
+}
+
+
